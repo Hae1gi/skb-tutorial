@@ -5,89 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;800&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="container">
         <header>
             <nav>
-                <img src="./image/return.png" alt="стрелочка" width="30" class="icon">
-                <p><a href="./index.html">Назад</a></p>
+                <p class="icon-text"><a href="./index.html" class="icon-link bcg-text">Назад</a></p>
             </nav>
         </header>
         <main>
             <!-- Caption -->
-            <section>
-                <h1>Информация о курсе</h1>
+            <section class="caption">
+                <h1 class="caption-title">Информация о курсе</h1>
             </section>
             <!-- Menu -->
-            <section>
-                <h2>Как работать на курсе</h2>
-                <ol>
-                    <li><a href="#table">Изучить теги</a></li>
-                    <li>Попрактиковаться</li>
-                    <li>Выполнить домашнее задание</li>
+            <section class="menu">
+                <h2 class="menu-title">Как работать на курсе</h2>
+                <ol class="menu-list">
+                    <li class="menu-item"><a href="#table-id">Изучить теги</a></li>
+                    <li class="menu-item">Попрактиковаться</li>
+                    <li class="menu-item">Выполнить домашнее задание</li>
                 </ol>
             </section>
             <!-- Description -->
-            <section>
-                <h2>Описание курса</h2>
-                <ul>
-                    <li>
-                        <p>В первой части курса Вы познакомитесь со стандартами Web 2.0, научитесь работать с макетами и форматировать код,
+            <section class="description">
+                <h2 class="description-title">Описание курса</h2>
+                <ul class="description-list">
+                    <li class="description-item">
+                        <p class="item-text">В первой части курса Вы познакомитесь со стандартами Web 2.0, научитесь работать с макетами и форматировать код,
                             освоите адаптивную верстку, а по <strong>по итогу</strong> - сможете создавать быстрые и удобные сайты, которые
                             <strong>точно понравятся пользователям</strong>
                         </p>
-                        <p>Вы поймете назначение основных тегов HTML, сможете без усилий стилизовать и размещать элементы с помощью CSS и
+                        <p class="item-text">Вы поймете назначение основных тегов HTML, сможете без усилий стилизовать и размещать элементы с помощью CSS и
                             сверстаете свой первый макет
                         </p>
-                        <figure>
-                            <img src="./image/course-work.png" alt="Страница сайта курсовой работы">
-                            <figcaption>Курсовая работа</figcaption>
+                        <figure class="item-figure">
+                            <img src="./image/course-work.png" alt="Страница сайта курсовой работы" class="figure-img">
+                            <figcaption class="figure-text">Курсовая работа</figcaption>
                         </figure>
                     </li>
                     <li>
-                        <p>
+                        <p class="item-text">
                             Вторая часть курса сделает из Вас настоящего мастера. Вы изучите сборщики проектов, научитесь верстать <span lang="en">e-mail</span>-рассылки, разберетесь с анимацие на сайте.
                         </p>
-                        <p>
+                        <p class="item-text">
                             Помимо этого, вы сверстаете фрагмент из интернет-магазина - главную страницу, страницу каталога и страницу товара!
                         </p>
-                        <figure>
-                            <img src="./image/graduation-work.png" alt="Страница сайта дипломного проекта">
-                            <figcaption>Дипломный проект</figcaption>
+                        <figure class="item-figure">
+                            <img src="./image/graduation-work.png" alt="Страница сайта дипломного проекта" class="figure-img">
+                            <figcaption class="figure-text">Дипломный проект</figcaption>
                         </figure>
                     </li>
                 </ul>
             </section>
             <!-- Programm -->
-            <section>
-                <h2>Программа курса</h2>
-                <ul>
-                    <li>Основы верстки</li>
-                    <li>HTML</li>
-                    <li>Формы и медиаэлементы</li>
-                    <li>Доступность</li>
-                    <li>Работа с макетом</li>
-                    <li>CSS</li>
-                    <li>Практика. Flexbox</li>
-                    <li>Адаптивность и кроссбраузерность</li>
-                    <li>JavaScript для верстальщика</li>
-                    <li>Бонус. Практикум</li>
-                    <li>Работа с хостингом</li>
-                    <li>Курсовая. Мини-проект в портфолио</li>
+            <section class="programm">
+                <h2 class="programm-title">Программа курса</h2>
+                <ul class="programm-list">
+                    <li class="programm-item">Основы верстки</li>
+                    <li class="programm-item">HTML</li>
+                    <li class="programm-item">Формы и медиаэлементы</li>
+                    <li class="programm-item">Доступность</li>
+                    <li class="programm-item">Работа с макетом</li>
+                    <li class="programm-item">CSS</li>
+                    <li class="programm-item">Практика. Flexbox</li>
+                    <li class="programm-item">Адаптивность и кроссбраузерность</li>
+                    <li class="programm-item">JavaScript для верстальщика</li>
+                    <li class="programm-item">Бонус. Практикум</li>
+                    <li class="programm-item">Работа с хостингом</li>
+                    <li class="programm-item">Курсовая. Мини-проект в портфолио</li>
                 </ul>
             </section>
             <!-- Table -->
             <section>
                 <!-- caption hide  -->
-                <h2>Таблица</h2>
-                <table id="table">
-                    <caption>
+                <h2  class="table-title">Таблица</h2>
+                <table id="table-id" class="table">
+                    <caption  class="table-caption">
                         Таблица тегов
                     </caption>
                     <thead>
-                        <tr>
+                        <tr class="table-tr">
                             <th colspan="2">Блочные</th>
                             <th colspan="2">Строчные</th>
                         </tr>
@@ -120,7 +122,7 @@
                     </tbody>
                     <tfoot>
                         <tr>
-                            <td colspan="4">Теперь вы знаете основные HTML-теги!</td>
+                            <td colspan="4" class="tfoot">Теперь вы знаете основные HTML-теги!</td>
                         </tr>
                     </tfoot>
                 </table>
