@@ -88,5 +88,8 @@ a {
 
 /* program.html */
 .container {
-    
+    box-sizing: border-box;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 30px 0px;
 }
