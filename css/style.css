@@ -108,6 +108,7 @@ a {
 
 
 .icon-back {
+	font-size: 18px;
 	background-image: url(../image/return.png);
 	background-repeat: no-repeat;
 	background-position: left center;
@@ -116,6 +117,7 @@ a {
 }
 
 .icon-go {
+	font-size: 18px;
 	background-image: url(../image/ahead.png);
 	background-repeat: no-repeat;
 	background-position: right center;
@@ -206,4 +208,57 @@ tfoot td {
 .tfoot {
 	color: #2f1ce4;
 	text-align: center;
+}
+
+/* modules */
+
+.modul-item {
+	padding: 0;
+  	margin: 0;
+  	list-style: none;
+  	font-size: 0;
+}
+
+.modules-item {
+	display: inline-block;
+  	width: 560px;
+  	min-height: 300px;
+  	border: 1px solid #000;
+  	margin-right: 46px;
+ 	margin-bottom: 20px;
+  	vertical-align: middle;
+  	position: relative;
+}
+
+.number {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	font-size: 16px;
+}
+
+.parent {
+	width: 1170px;  /* ширина страницы */
+	margin: 0 auto;
+}
+
+.right {
+	margin-right: 0;
+}
+
+.more {
+	text-align: center;
+}
+
+.item-list {
+	list-style: none;
+}
+
+.title {
+	font-family: 'Graphik LCG', sans-serif;
+	margin-top: 58px;
+	font-size: 500;
+	font-size: 40px;
+	letter-spacing: 1.2;
+	margin-bottom: 60px;
 }
