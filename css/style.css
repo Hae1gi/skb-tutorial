@@ -95,13 +95,16 @@ a {
     padding: 30px 0px;
 }
 
-.nav-box {
+.nav-list {
 	display: flex;
+  	align-items: flex-start;
+  	justify-content: space-between;
+}
+.nav-list :first-child {
+    align-self: center;
 }
 
-.nav-item {
-	display: inline-block;
-}
+
 
 
 .icon-back {
