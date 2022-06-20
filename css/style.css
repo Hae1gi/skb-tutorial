@@ -99,10 +99,12 @@ a {
 	display: flex;
   	align-items: flex-start;
   	justify-content: space-between;
+	margin-bottom: 100px;
 }
 .nav-list :first-child {
     align-self: center;
 }
+
 
 
 
@@ -221,11 +223,11 @@ tfoot td {
 
 .modules-item {
 	display: inline-block;
-  	width: 560px;
-  	min-height: 300px;
+  	width: 480px;
+  	min-height: 505px;
   	border: 1px solid #000;
-  	margin-right: 46px;
- 	margin-bottom: 20px;
+  	margin-right: 60px;
+ 	margin-bottom: 60px;
   	vertical-align: middle;
   	position: relative;
 }
@@ -257,8 +259,59 @@ tfoot td {
 .title {
 	font-family: 'Graphik LCG', sans-serif;
 	margin-top: 58px;
-	font-size: 500;
+	font-weight: 500;
 	font-size: 40px;
 	letter-spacing: 1.2;
 	margin-bottom: 60px;
+}
+
+.modules-title {
+	font-weight: 800;
+	font-size: 48px;
+	letter-spacing: 1.1;
+	margin-left: 100px;
+	margin-bottom: 80px;
+}
+
+.modules-list {
+	margin-left: 80px;
+	margin-bottom: 37px;
+}
+
+.modules-img {
+	padding: 0px;
+	margin: 0px;
+	max-width: 480px;
+}
+
+.item-title {
+	font-size: 36px;
+	font-weight: 800;
+	color: #2f1ce4;
+	padding: 30px 0 20px 50px;
+}
+
+.item-item {
+	font-size: 16px;
+	color: #222020;
+	padding: 0 0 20px 50px;
+}
+
+.img-box {
+	width: 480px;
+	height: 180px;
+	border: 0;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.modules-img {
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	flex-shrink: 0;
+	box-sizing: border-box;
 }
