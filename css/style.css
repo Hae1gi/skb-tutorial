@@ -87,6 +87,7 @@ a {
 }
 
 /* program.html */
+
 .container {
     box-sizing: border-box;
     width: 1170px;
@@ -94,12 +95,29 @@ a {
     padding: 30px 0px;
 }
 
-.bcg-text {
+.nav-box {
+	display: flex;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+
+.icon-back {
 	background-image: url(../image/return.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-size: contain;
 	padding-left: 35px;
+}
+
+.icon-go {
+	background-image: url(../image/ahead.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: contain;
+	padding-right: 35px;
 }
 
 .caption-title {
@@ -141,7 +159,8 @@ a {
 	font-size: 1.2em;
 }
 
-.description-list {
+.description-list,
+.nav-list {
 	list-style-type: none;
 }
 .item-text {
@@ -164,6 +183,7 @@ a {
 .figure-img {
 	max-width: 400px;
 }
+
 .table-title {
 	margin-top: 100px;
 }
