@@ -1,3 +1,39 @@
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('../fonts/GraphikLCG-Medium.woff2') format('woff2'),
+		url('../fonts/GraphikLCG-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+		url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+		url('../fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -5,7 +41,7 @@
 }
 
 body {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Gilroy', sans-serif;
 }
 
 a {
@@ -15,7 +51,7 @@ a {
 
 /* Index.html */
 .link {
-    font-family: 'Roboto';
+    font-family: 'Graphik LCG';
 }
 /* main content */
 .main-content {
@@ -29,7 +65,7 @@ a {
 /* nav - logo */
 .nav-logo {
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Graphik LCG', sans-serif;
     margin-bottom: 30px;
     text-align: center;
 }
@@ -59,11 +95,11 @@ a {
 }
 
 .bcg-text {
-		background-image: url(../image/return.png);
-		background-repeat: no-repeat;
-		background-position: left center;
-		background-size: contain;
-		padding-left: 35px;
+	background-image: url(../image/return.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: contain;
+	padding-left: 35px;
 }
 
 .caption-title {
@@ -71,6 +107,14 @@ a {
 	font-size: 48px;
 	margin-top: 100px;S
 	padding-left: 100px;
+}
+
+.menu-item a {
+	text-decoration-line: underline;
+	text-decoration-color: currentColor;
+	color: #2f1ce4;
+	text-decoration-thickness: 1px;
+	/* Подчеркивание нужно делать borderom */
 }
 
 .menu-title,
@@ -88,6 +132,13 @@ a {
 .programm-list {
 	font-size: 18px;
 	padding-left: 180px;
+	position: relative;
+    left: 20px;
+}
+
+.programm-item::marker {
+	color: #2f1ce4;
+	font-size: 1.2em;
 }
 
 .description-list {
@@ -105,6 +156,8 @@ a {
 	display: inline-block;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	position: relative;
+	left: 75px;
 	
 }
 
